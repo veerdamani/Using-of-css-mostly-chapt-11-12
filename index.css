@@ -1,0 +1,93 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 18px;
+    background-color: rgb(219, 233, 228);
+}
+
+#div1{
+    padding: 20px;
+    background-color: rgb(248, 237, 223);
+    border-radius: 7px;
+    box-shadow: 0px 4px 8px rgb(210, 203, 193);
+        
+}
+
+
+h1{
+    word-spacing: 6px;
+    font-size: 2em;
+}
+
+p{  
+    line-height: 27px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 20;
+    
+
+}
+
+.text{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.indent{
+    text-indent: 30px;
+}
+
+.shado{
+    text-shadow: 0px 3px 10px rgba(255, 0, 0, 0.269);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+a:active{
+
+    color: rgba(0, 0, 0, 0.824);
+}
+
+a:visited{
+    color: hsl(125, 71%, 48%);
+}
+
+a:focus{
+    border: 2px solid rgb(225, 158, 158);
+    color: black;
+    
+}
+
+.per{
+    text-align: justify;
+}
+
+button{
+    height: 35px;
+    width: 70px;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+
+
+button:focus{
+     background-color: red;
+
+}
+
+button:active{
+    background-color: green;
+}
+
+button:hover{
+    background-color:rgb(231, 222, 187) 
+}
